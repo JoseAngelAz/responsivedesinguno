@@ -1,0 +1,1 @@
+$(.vista_uno).html('Esta es un manzana');

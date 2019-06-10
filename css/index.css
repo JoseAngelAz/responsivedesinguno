@@ -1,0 +1,31 @@
+body{
+	background-image: url("bulma-logo.png");
+   
+}
+.container{
+  background-color: green;
+}
+.caja{
+	border: solid 3px red;
+	background-color: yellow;
+}	.hero{
+	background-image:url("../images/bulma_fondo.png") center / cover;
+	height: 100vh;
+	}
+
+	@media (max-width: 1500px){
+		.hero {background:black url("../images/bulma_fondo.png") center / cover;}}
+	@media (max-width: 1050px){
+	.hero {background:black url("../images/bulma_fondo_mh.png") center / cover;}}
+	@media (max-width: 900px){
+	.hero {background:black url("../images/bulma_fondo_medium.png") center / cover;}}
+	@media (max-width: 768px){
+	.hero {background:black url("../images/bulma_fondo_blue.png") center / cover;}
+	 .logo {
+		 visibility: hidden;
+	}
+	
+   }
+}
+
+	
